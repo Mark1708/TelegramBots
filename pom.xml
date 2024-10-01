@@ -20,6 +20,8 @@
         <module>telegrambots-extensions</module>
         <module>telegrambots-abilities</module>
         <module>telegrambots-test-reports</module>
+
+        <module>example-springboot-bots</module>
     </modules>
 
     <licenses>

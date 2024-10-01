@@ -1,0 +1,17 @@
+spring:
+  application:
+    name: example-bots
+
+telegrambots:
+  enabled: true
+  bots:
+    webhookTestBot:
+      type: WEBHOOK
+      username: MyWebhookBot
+      token: ${TOKEN_1}
+      webhookUrl: ${WEBHOOK_URL}
+    longPoolingTestBot:
+      type: LONG_POOLING
+      username: MyLongPulingBot
+      token: ${TOKEN_2}
+
