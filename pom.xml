@@ -16,6 +16,7 @@
         <module>telegrambots-client</module>
         <module>telegrambots-springboot-longpolling-starter</module>
         <module>telegrambots-springboot-webhook-starter</module>
+        <module>telegrambots-springboot-starter</module>
         <module>telegrambots-extensions</module>
         <module>telegrambots-abilities</module>
         <module>telegrambots-test-reports</module>

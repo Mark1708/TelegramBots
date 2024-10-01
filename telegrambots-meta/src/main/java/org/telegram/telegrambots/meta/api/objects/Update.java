@@ -266,6 +266,22 @@ public class Update implements BotApiObject {
         return chatJoinRequest != null;
     }
 
+    public boolean hasMessageReaction() {
+        return messageReaction != null;
+    }
+
+    public boolean hasMessageReactionCount() {
+        return messageReactionCount != null;
+    }
+
+    public boolean hasChatBoost() {
+        return chatBoost != null;
+    }
+
+    public boolean hasRemovedChatBoost() {
+        return removedChatBoost != null;
+    }
+
     public boolean hasBusinessConnection() {
         return businessConnection != null;
     }
